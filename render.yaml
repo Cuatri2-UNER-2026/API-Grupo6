@@ -17,6 +17,8 @@ services:
         value: expo
       - key: DB_PROVEEDOR
         value: supabase
+      - key: DB_MOTOR
+        value: postgres
       - key: DB_SINCRONIZAR
         value: "true"
       - key: SEMBRAR_SI_VACIA
